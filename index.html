@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sujal fitness</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+  body {
+    color: beige;
+    margin: 0px;
+    padding: 0px;
+    background: url("img/bb2.jpg");
+    width: 100%;
+    
+    
+  }
+
+  .left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+    display: inline-block;
+    
+  }
+
+  .left img {
+    width: 99px;
+    
+
+     object-fit: cover;
+
+  }
+
+  .left div {
+    line-height: 40px;
+    font-size: 21px;
+
+  }
+
+  .mid {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    
+  }
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+    display: inline-block;
+    
+  }
+
+  .btn {
+    padding: 5px 25px;
+    background: black;
+    color: white;
+    border: 5px solid gray;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(182, 163, 163);
+    color: aqua;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+
+    font-size: 15px;
+  }
+
+  .navbar li a {
+    color: beige;
+    text-decoration: none;
+    padding: 10px 10px;
+
+  }
+
+  .navbar li a:hover,
+  .navbar li a:active {
+    text-decoration: underline;
+    color: aqua;
+
+  }
+
+  .sujal {
+    
+    margin: 70px 10px;
+    padding: 5px 50px;
+    width: 300px;
+
+
+  }
+
+  .subrat {
+    border-radius: 15px;
+    width: 233px;
+    padding: 5px 19px;
+    margin: 2px 24px;
+  }
+
+  .subrat:hover {
+    background-color: aqua;
+    color: white;
+  }
+
+  .sound {
+    border: 2px solid white;
+    margin: 19px 59px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    font-size: 20;
+  }
+
+  .sound input {
+ font-display:bold ;
+    text-align: center;
+  }
+
+
+</style>
+
+
+<body>
+  <header class="content">
+    <div class="left">
+      <img src="img/bb1.jpg" alt="">
+      <div>sujal fitness</div>
+    </div>
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">helpdesk</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <button class="btn">contact us</button>
+      <button class="btn">email us</button>
+
+    </div>
+  </header>
+  <div class="sujal">
+    <h1>Welcome to my Gym</h1>
+    <form action="nobackend.php"></form>
+    <div class="sound">
+      <input type="text" placeholder="enter name">
+    </div>
+    <div class="sound">
+      <input type="text" placeholder="enter phone no.">
+    </div>
+    <div class="sound">
+      <input type="text" placeholder="enter e mail">
+    </div>
+    <div class="sound">
+      <input type="text" placeholder="enter gender">
+    </div>
+    
+
+    
+    <button class="subrat"> submit</button>
+  </div>
+</body>
+
+</html>
